@@ -4,6 +4,11 @@ namespace Crawler\Parser;
 
 use Interfaces\Parser\PageParserInterface;
 
+/**
+ * Class PageParser
+ * Page parser, use cURL
+ * @package Crawler\Parser
+ */
 class PageParser implements PageParserInterface
 {
     /**

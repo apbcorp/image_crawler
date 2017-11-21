@@ -20,6 +20,11 @@ use Interfaces\Validator\ValidatorInterface;
 use Saver\FileSaver;
 use Validator\UrlValidator;
 
+/**
+ * Class ObjectFactory
+ * Factory, implements create classes with its dependencies
+ * @package Factory
+ */
 class ObjectFactory
 {
     const CURL_WAIT = 100000;

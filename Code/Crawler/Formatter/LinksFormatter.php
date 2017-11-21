@@ -5,6 +5,11 @@ namespace Crawler\Formatter;
 use Crawler\Helper\UrlHelper;
 use Interfaces\Formatter\LinksFormatterInterface;
 
+/**
+ * Class LinksFormatter
+ * Links formatter, use for get absolute links to pages and ignoring links to images, pdf files, etc
+ * @package Crawler\Formatter
+ */
 class LinksFormatter implements LinksFormatterInterface
 {
 

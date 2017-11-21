@@ -18,6 +18,8 @@ try {
     $result = $crawler->parse($argv[1]);
 } catch (Exception $e) {
     echo 'ERROR: ' . $e->getMessage();
+
+    return;
 }
 
 $saver = $factory->createSaver();

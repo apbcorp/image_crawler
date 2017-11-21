@@ -2,6 +2,10 @@
 
 namespace Interfaces\Formatter;
 
+/**
+ * Interface FormatterInterface
+ * @package Interfaces\Formatter
+ */
 interface FormatterInterface
 {
     /**

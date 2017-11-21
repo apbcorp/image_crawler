@@ -9,6 +9,11 @@ use Interfaces\Formatter\LinksFormatterInterface;
 use Interfaces\Parser\ImageAndLinkParserInterface;
 use Interfaces\Validator\ValidatorInterface;
 
+/**
+ * Class Crawler
+ * Bot for parsing site, implements sequential crawling of links and the adding links to queue
+ * @package Crawler
+ */
 class Crawler
 {
     /**

@@ -6,6 +6,11 @@ use Crawler\Helper\UrlHelper;
 use Interfaces\Parser\PageParserInterface;
 use Interfaces\Validator\ValidatorInterface;
 
+/**
+ * Class UrlValidator
+ * Validator, validate URL, using regex and curl request to page
+ * @package Validator
+ */
 class UrlValidator implements ValidatorInterface
 {
     /**

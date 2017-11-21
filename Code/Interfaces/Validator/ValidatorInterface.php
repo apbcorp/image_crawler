@@ -2,6 +2,11 @@
 
 namespace Interfaces\Validator;
 
+/**
+ * Interface ValidatorInterface
+ * Validator interface, implements validation method and method for get errors
+ * @package Interfaces\Validator
+ */
 interface ValidatorInterface
 {
     /**

@@ -2,6 +2,11 @@
 
 namespace Crawler\Helper;
 
+/**
+ * Class UrlHelper
+ * Url helper, library for work with url - get domain, check valid url, create absolute link, etc.
+ * @package Crawler\Helper
+ */
 class UrlHelper
 {
     const URL_PATTERN = '/(https?:\/\/.*)(\/|$)/U';

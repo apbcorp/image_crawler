@@ -2,6 +2,10 @@
 
 namespace Interfaces\Analyzer;
 
+/**
+ * Interface ImageAnalyzerInterface
+ * @package Interfaces\Analyzer
+ */
 interface ImageAnalyzerInterface
 {
     /**

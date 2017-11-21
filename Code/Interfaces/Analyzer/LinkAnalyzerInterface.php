@@ -2,6 +2,10 @@
 
 namespace Interfaces\Analyzer;
 
+/**
+ * Interface LinkAnalyzerInterface
+ * @package Interfaces\Analyzer
+ */
 interface LinkAnalyzerInterface
 {
     /**

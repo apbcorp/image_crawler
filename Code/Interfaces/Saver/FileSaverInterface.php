@@ -2,6 +2,10 @@
 
 namespace Interfaces\Saver;
 
+/**
+ * Interface FileSaverInterface
+ * @package Interfaces\Saver
+ */
 interface FileSaverInterface extends SaverInterface
 {
     /**

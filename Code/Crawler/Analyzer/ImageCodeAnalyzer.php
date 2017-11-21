@@ -4,6 +4,11 @@ namespace Crawler\Analyzer;
 
 use Interfaces\Analyzer\ImageCodeAnalyzerInterface;
 
+/**
+ * Class ImageCodeAnalyzer
+ * Image analizator, find IMG tags in HTML code
+ * @package Crawler\Analyzer
+ */
 class ImageCodeAnalyzer implements ImageCodeAnalyzerInterface
 {
     const IMG_PATTERN = '/<img /';

@@ -4,6 +4,11 @@ namespace Crawler\Formatter;
 
 use Interfaces\Formatter\FormatterInterface;
 
+/**
+ * Class ResultFormatter
+ * Result formatter, sort result by image count, and format result from table
+ * @package Crawler\Formatter
+ */
 class ResultFormatter implements FormatterInterface
 {
     /**

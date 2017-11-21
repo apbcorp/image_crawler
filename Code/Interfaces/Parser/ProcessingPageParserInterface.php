@@ -2,7 +2,10 @@
 
 namespace Interfaces\Parser;
 
-
+/**
+ * Interface ProcessingPageParserInterface
+ * @package Interfaces\Parser
+ */
 interface ProcessingPageParserInterface
 {
     /**

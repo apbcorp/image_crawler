@@ -4,6 +4,11 @@ namespace Crawler\Analyzer;
 
 use Interfaces\Analyzer\LinkCodeAnalyzerInterface;
 
+/**
+ * Class LinkCodeAnalyzer
+ * Link analizator, get all links from page
+ * @package Crawler\Analyzer
+ */
 class LinkCodeAnalyzer implements LinkCodeAnalyzerInterface
 {
     const LINK_PATTERN = '/<a href=\"(.*)\"/U';

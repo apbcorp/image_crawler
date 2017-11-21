@@ -9,6 +9,11 @@ use Interfaces\Analyzer\ImageCodeAnalyzerInterface;
 use Interfaces\Analyzer\LinkCodeAnalyzerInterface;
 use Interfaces\Parser\PageParserInterface;
 
+/**
+ * Class PageParserFacade
+ * Facade for parser and analizators, implements the sequence of actions when parsing and access to its results
+ * @package Crawler\Parser
+ */
 class PageParserFacade implements ImageAndLinkParserInterface
 {
     /**

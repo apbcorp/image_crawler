@@ -4,6 +4,11 @@ namespace Saver;
 
 use Interfaces\Saver\FileSaverInterface;
 
+/**
+ * Class FileSaver
+ * Saver, save crawler result to html file
+ * @package Saver
+ */
 class FileSaver implements FileSaverInterface
 {
     const HEAD_TEMPLATE = '<html><head><title>Report</title></head><body><table border="1"><tr><td>URL</td><td>Image count</td><td>Parsing time</td></tr>';
